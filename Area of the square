@@ -1,0 +1,10 @@
+class Square
+{
+    //Function to calculate Area
+    void calculateArea()
+    {
+        double s=12.75;
+        double ar=s*s;
+        System.out.println("Area of the square="+ar);
+    }
+}
