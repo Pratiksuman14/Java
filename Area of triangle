@@ -1,0 +1,10 @@
+class Triangle
+{
+    //Function to calculate area of a triangle
+    void calculateArea()
+    {
+        double b=8.5 , h=10.5;
+        double ar=0.5*b*h;
+        System.out.println("Area of triangle="+ar);
+    }
+}
