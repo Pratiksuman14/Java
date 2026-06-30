@@ -1,0 +1,11 @@
+class Simple_Interest
+{
+    //Function to calculate SimpleInterest
+    void CalculateSimpleInterest()
+    {
+        int p=3000 , t=8;
+        double r=12.85;
+        double si=p*r*t/100;
+        System.out.println("The Simple Interest="+si);
+    }
+}
