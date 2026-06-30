@@ -1,0 +1,10 @@
+class Circle
+{
+    //Function to calculate area
+    void calculateArea()
+    {
+        double r=13.5;
+        double ar=3.14*r*r;
+        System.out.println("Area of the circle="+ar);
+    }
+}
