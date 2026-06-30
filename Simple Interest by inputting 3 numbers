@@ -1,0 +1,9 @@
+class Interest
+{ 
+    //Function to calculate Simple Interest
+    void calculateInterest(double p , double r, double t)
+    {
+      double si = (p*r*t)/100;
+      System.out.println("Simple Interest=");
+    }
+}
