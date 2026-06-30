@@ -1,0 +1,10 @@
+class Sum
+{
+    //Function to calculate sum
+    void calculateSum()
+    {
+        int a=25,b=15;
+        int s=a+b;
+        System.out.println("The sum="+s);
+    }
+}
