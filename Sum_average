@@ -1,0 +1,12 @@
+class Sum_average
+{
+    //Function to calculate sum and average
+    void calculateSumAndAverage()
+    {
+        int a=5 , b=3 , c=2;
+        int s=a+b+c;
+        double avg=s/3.0;
+        System.out.println("The Sum="+s);
+        System.out.println("The Average="+avg);
+    }
+}
