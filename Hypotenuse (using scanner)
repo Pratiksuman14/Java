@@ -1,0 +1,15 @@
+import java.util.*;
+class Hypotenuse 
+{
+    //function to calculate and display hypotenuse
+    void findHypotenuse()
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of p");
+        double p = sc.nextDouble();
+        System.out.println("Enter the value of b");
+        double b = sc.nextDouble();
+        double h =  Math.sqrt(Math.pow(p, 2) + b*b);
+        System.out.println("The value of hypotensue ="+h);
+    }
+}
