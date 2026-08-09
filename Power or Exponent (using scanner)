@@ -1,0 +1,17 @@
+import java.util.*;
+class Power
+{
+    //function to calculate power
+    void findPowerValue()
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of m");
+        int m = sc.nextInt();
+        System.out.println("Enter the value of n");
+        int n = sc.nextInt();
+        double p1 = Math.pow(m,n);
+        double p2 = Math.pow(n,m);
+        System.out.println(m+"Raised to the power"+n+"="+p1);
+        System.out.println(n+"Raised to the power"+m+"="+p2);
+    }
+}
