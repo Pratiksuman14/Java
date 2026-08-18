@@ -1,0 +1,20 @@
+import java.util.*;
+class Number
+{
+    //function to check whether Divisibility
+    void checkDivisibility()
+    {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the first number");
+      int n1 = sc.nextInt();
+      int n2 = sc.nextInt();
+      if(n1%n2==0)
+      {
+          System.out.println(n1+"is divisible by"+n2);
+      }
+      else
+      {
+           System.out.println(n1+"is not divisible by"+n2);
+      }
+    }
+}
