@@ -1,0 +1,24 @@
+import java.util.*;
+class Triangle
+{
+    //function to check wheter the triangle is equalable or not
+    void checkEquableTriangle()
+    {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter three sides");
+      double a = sc.nextDouble();
+      double b = sc.nextDouble();
+      double c = sc.nextDouble();
+      double p = a+b+c;
+      double s = (a+b+c)/2;
+      double area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+      if(area==p)
+      {
+          System.out.println("An Equable traingle ");
+      }
+      else 
+      {
+          System.out.println("Not An Equable Triangle ");
+      }
+    }
+}
