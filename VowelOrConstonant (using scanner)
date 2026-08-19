@@ -1,0 +1,19 @@
+import java.util.*;
+class Letter
+{
+    //function to check vowel or consonant
+    void findVowelOrConsonant()
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a letter in capital");
+        char l = sc.next().charAt(0);
+        if(l=='A' ||l=='E' ||l=='I' ||l=='O' || l=='U')
+        {
+            System.out.println("Vowel");
+        }
+        else
+        {
+            System.out.println("Consonant");
+        }
+    }
+}
