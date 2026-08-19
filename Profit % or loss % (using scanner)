@@ -1,0 +1,25 @@
+import java.util.*;
+class Number 
+{
+    //function to calculate and display Profit or Loss Percentage
+    void findProfitPercentageOrLossPercentage()
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Cost Price");
+        double cp = sc.nextDouble();
+        System.out.println("Enter Selling Price");
+        double sp = sc.nextDouble();
+        if(sp>cp)
+        {
+            double p = sp-cp;
+            double pp = (p/cp)*100;
+            System.out.println("Profit % = "+pp);        
+        }
+        else
+        {
+            double l = cp-sp;
+            double lp = (l/cp)*100;
+            System.out.println("Loss % ="+lp);
+        }
+    }
+}
